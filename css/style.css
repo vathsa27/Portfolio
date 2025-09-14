@@ -1,0 +1,71 @@
+section [class^="container"] {
+  padding: 4rem 2rem;
+}
+@media screen and (min-width: 1024px) {
+  section [class^="container"] {
+    padding: 4rem;
+  }
+  nav [class^="container"] {
+    padding: 0 4rem;
+  }
+}
+
+
+/* Navbar */
+
+.navbar{
+    background-color: #ffffff;
+}
+.navbar-nav .nav-link{
+    color: black;
+    font-size: 1.1rem;
+}
+
+.navbar-nav .nav-item{
+    padding: 0 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-nav .nav-item {
+    padding: 0 0.5rem;
+  }
+  .navbar-brand{
+    font-size: 1.5rem;
+}
+}
+
+/* HOME */
+section.home {
+  background-color: #bdafc9;
+  padding-top: 72px;
+}
+
+@media screen and (max-width: 576px) {
+  section.home {
+    text-align: center;
+  }
+  section.home .img-fluid {
+    width: 80%;
+  }
+}
+
+/* Skills */
+section .skills {
+  background-color: #bdafc9;
+  padding: 72px;
+}
+
+/* certificates */
+section .certificates {
+  background-color: #bdafc9;
+  padding: 72px;
+}
+.certificate-img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.certificate-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
