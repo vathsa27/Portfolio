@@ -3,22 +3,37 @@ section [class^="container"] {
 }
 @media screen and (min-width: 1024px) {
   section [class^="container"] {
-    padding: 4rem;
+    padding: 2rem;
   }
   nav [class^="container"] {
     padding: 0 4rem;
   }
 }
 
+html,body{
+  overflow-x: hidden;
+}
 
+a{
+  text-decoration: none;
+}
 /* Navbar */
 
+.navbar .logo{
+  color: #563D7C;
+}
+
 .navbar{
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 .navbar-nav .nav-link{
     color: black;
     font-size: 1.1rem;
+}
+
+.navbar-nav .nav-item:hover{
+  background-color: #bdafc9;
+  border-radius: 20px;
 }
 
 .navbar-nav .nav-item{
@@ -37,7 +52,7 @@ section [class^="container"] {
 /* HOME */
 section.home {
   background-color: #bdafc9;
-  padding-top: 72px;
+  padding: 72px;
 }
 
 @media screen and (max-width: 576px) {
@@ -49,11 +64,104 @@ section.home {
   }
 }
 
+
+/* Education */
+.education .row:hover{
+  cursor: pointer;
+}
+
+.education .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.education .card:hover {
+    transform: scale(1.05); /* Makes the card slightly bigger */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Projects */
+
+.project-card {
+  border-radius: 15px;
+  background: #fdfdfd; /* soft white */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 10px;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.btn {
+  border-radius: 30px;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+}
+
+
+
 /* Skills */
 section .skills {
   background-color: #bdafc9;
   padding: 72px;
+  cursor: pointer;
 }
+
+.skills .html{
+  background-color: #EF652A;
+}
+
+.skills .css{
+  background-color: #33A9DC;
+}
+
+.skills .js{
+  background-color: #F7DF1E;
+}
+
+.skills .bootstrap{
+  background-color: #563D7C;
+}
+
+/* Projects */
+.card-title:hover{
+  cursor: pointer;
+}
+
+.card-text:hover{
+  cursor: pointer;
+}
+
+.project-card {
+  min-height: 380px; /* Makes cards taller */
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+.card-title {
+  font-size: 1.4rem;
+}
+.card-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
 
 /* certificates */
 section .certificates {

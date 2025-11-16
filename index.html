@@ -22,7 +22,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">SriV</a>
+            <a class=" logo navbar-brand fw-bold fs-3" href="#">SriV</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -60,16 +60,16 @@
     <section class="home" id="home">
         <div class="container-lg">
             <div class="row align-items-center">
-                <div class="col-sm-6">
+                <div class="col-8">
                     <h1 class="display-4 fw-bold">Sri Vathsala</h1>
                     <p>Hi, I’m M. Sri Vathsala, a frontend developer passionate about creating clean, responsive, and
                         user-friendly websites. I specialize in HTML, CSS, JavaScript, and Bootstrap to transform
                         designs into functional digital experiences. My focus is on performance, accessibility, and
                         continuous learning to stay updated with the latest technologies.
                     </p>
-                    <button class="btn btn-outline-dark btn-lg">Hire Me</button>
+                    <!-- <button class="btn btn-outline-dark btn-lg">Hire Me</button> -->
                 </div>
-                <div class="col-sm-6 text-center">
+                <div class="col-4 text-center">
                     <img src="./images/v1.jpg" class="img-fluid my-3">
                 </div>
             </div>
@@ -128,11 +128,11 @@
             <!-- Skill 1 -->
             <div class="mb-3" id="skills">
                 <div class="d-flex justify-content-between">
-                    <span>HTML</span>
-                    <span>90%</span>
+                    <span class="fs-5">HTML</span>
+                    <span class="fs-5">90%</span>
                 </div>
                 <div class="progress">
-                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar"
+                    <div class="html progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                         style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
@@ -140,11 +140,11 @@
             <!-- Skill 2 -->
             <div class="mb-3">
                 <div class="d-flex justify-content-between">
-                    <span>CSS</span>
-                    <span>80%</span>
+                    <span class="fs-5">CSS</span>
+                    <span class="fs-5">80%</span>
                 </div>
                 <div class="progress">
-                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar"
+                    <div class="css progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                         style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
@@ -152,11 +152,11 @@
             <!-- Skill 3 -->
             <div class="mb-3">
                 <div class="d-flex justify-content-between">
-                    <span>JavaScript</span>
-                    <span>0%</span>
+                    <span class="fs-5">JavaScript</span>
+                    <span class="fs-5">0%</span>
                 </div>
                 <div class="progress">
-                    <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar"
+                    <div class="js progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                         style="width: 0%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
@@ -164,11 +164,11 @@
             <!-- Skill 4 -->
             <div class="mb-3">
                 <div class="d-flex justify-content-between">
-                    <span>Bootstrap</span>
-                    <span>85%</span>
+                    <span class="fs-5">Bootstrap</span>
+                    <span class="fs-5">85%</span>
                 </div>
                 <div class="progress">
-                    <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" role="progressbar"
+                    <div class="bootstrap progress-bar-striped progress-bar-animated" role="progressbar"
                         style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
@@ -183,20 +183,25 @@
 
             <!-- Project 1 -->
             <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm shadow p-2 mb-5 bg-body-tertiary rounded">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title"><i class="bi bi-code-slash"></i>Google Website Page</h5>
+                <div class="card h-100 project-card">
+                    <div class="card-body d-flex flex-column border border-dark">
+                        <h5 class="card-title text-primary fw-bold">
+                            <i class="bi bi-code-slash"></i> Google Website Page
+                        </h5>
                         <p class="card-text">
-                            A responsive Google browser page automatically adjusts its layout and content to fit
-                            different screen sizes, from desktops to mobile devices. It ensures a smooth and
-                            user-friendly experience across all devices
+                            A responsive clone of the Google search engine homepage, built using HTML5 and CSS3. The
+                            project focuses on replicating the clean UI of Google’s landing page with a pixel-perfect
+                            layout, centered logo.
+                        </p>
+                        <p class="card-text">
+                            Keywords: <br>
+                            1. Google homepage clone,<br>2. HTML CSS projects,<br>3. Frontend practice,<br>4. Beginner frontend project.
                         </p>
                         <div class="mt-auto">
-                            <!-- <a href="#" class="btn btn-primary btn-sm">View Project</a> -->
-                            <!-- GitHub Repo Link -->
+                            <a href="#" class="btn btn-primary btn-sm">View Project</a>
                             <a href="https://vathsa27.github.io/googlepage/" target="_blank"
                                 class="btn btn-outline-dark btn-sm">
-                                <i class="bi bi-github"></i> View Project
+                                <i class="bi bi-github"></i> Code
                             </a>
                         </div>
                     </div>
@@ -205,20 +210,25 @@
 
             <!-- Project 2 -->
             <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm shadow p-2 mb-5 bg-body-tertiary rounded">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title"><i class="bi bi-journal-code"></i>Responsive Restaurant Website</h5>
+                <div class="card h-100 project-card">
+                    <div class="card-body d-flex flex-column border border-dark">
+                        <h5 class="card-title text-success fw-bold">
+                            <i class="bi bi-journal-code"></i> Responsive Restaurant Website
+                        </h5>
                         <p class="card-text">
-                            A restaurant website showcases the menu, ambiance, and services, helping customers explore
-                            and make reservations easily. It provides a visually appealing and user-friendly experience
-                            to attract and engage visitors.
+                            A modern and fully responsive Restaurant Website built using HTML5, CSS3, and JavaScript.
+                            This project emphasizes attractive UI design, smooth responsiveness across all devices.
+                        </p>
+                        <p class="card-text">
+                            Keywords: <br>
+                            1. Restaurant landing page <br> 2. Interactive restaurant website <br> 3. Mobile-friendly website <br> 4. Responsive
+                            web design.
                         </p>
                         <div class="mt-auto">
-                            <!-- <a href="#" class="btn btn-primary btn-sm">View Project</a> -->
-                            <!-- GitHub Repo Link -->
+                            <a href="#" class="btn btn-success btn-sm">View Project</a>
                             <a href="https://vathsa27.github.io/responsivefoodwebsite/" target="_blank"
                                 class="btn btn-outline-dark btn-sm">
-                                <i class="bi bi-github "></i> View Project
+                                <i class="bi bi-github"></i> Code
                             </a>
                         </div>
                     </div>
@@ -227,19 +237,25 @@
 
             <!-- Project 3 -->
             <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm shadow p-2 mb-5 bg-body-tertiary rounded">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title"><i class="bi bi-bar-chart"></i>Blogging Website</h5>
+                <div class="card h-100 project-card">
+                    <div class="card-body d-flex flex-column border border-dark">
+                        <h5 class="card-title text-warning fw-bold">
+                            <i class="bi bi-bar-chart"></i> Blogging Website
+                        </h5>
                         <p class="card-text">
-                            A full-stack blogging website for content creators, offering authentication, post
-                            management, and dynamic display.
+                            The project highlights both frontend design and backend development, enabling users to
+                            create, manage, and interact with blog posts in a clean, user-friendly environment.
+                        </p>
+                        <p class="card-text">
+                            Keywords: <br>
+                            1. Blog management system <br>2. Responsive blog website <br>3. Dynamic website development <br>4. Content
+                            management system.
                         </p>
                         <div class="mt-auto">
-                            <!-- <a href="#" class="btn btn-primary btn-sm">View Project</a> -->
-                            <!-- GitHub Repo Link -->
-                            <a href=" https://hyunjinart.infinityfreeapp.com/?i=1" target="_blank"
+                            <a href="#" class="btn btn-warning btn-sm text-dark">View Project</a>
+                            <a href="https://hyunjinart.infinityfreeapp.com/?i=1" target="_blank"
                                 class="btn btn-outline-dark btn-sm">
-                                <i class="bi bi-github"></i> View Project
+                                <i class="bi bi-github"></i> Code
                             </a>
                         </div>
                     </div>
@@ -248,20 +264,25 @@
 
             <!-- Project 4 -->
             <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm shadow p-2 mb-5 bg-body-tertiary rounded">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title"><i class="bi bi-bar-chart"></i>Responsive Admin-Panel</h5>
+                <div class="card h-100 project-card">
+                    <div class="card-body d-flex flex-column border border-dark">
+                        <h5 class="card-title text-info fw-bold">
+                            <i class="bi bi-window"></i> Responsive Admin-Panel
+                        </h5>
                         <p class="card-text">
-                            A responsive admin panel adapts seamlessly to various screen sizes, providing easy
-                            navigation and control on both desktop and mobile devices. It ensures efficient management
-                            with a clean, user-friendly interface.
+                            A clean and responsive Admin Dashboard Panel built using HTML5 and CSS3. The project
+                            demonstrates the ability to design structured layouts for managing data and content.
+                        </p>
+                        <p class="card-text">
+                            Keywords: <br>
+                            1. Admin dashboard UI <br>2. Responsive dashboard design <br>3. Frontend practice project <br>4. Admin panel
+                            template.
                         </p>
                         <div class="mt-auto">
-                            <!-- <a href="#" class="btn btn-primary btn-sm">View Project</a> -->
-                            <!-- GitHub Repo Link -->
+                            <a href="#" class="btn btn-info btn-sm text-dark">View Project</a>
                             <a href="https://vathsa27.github.io/adminpanel/" target="_blank"
                                 class="btn btn-outline-dark btn-sm">
-                                <i class="bi bi-github"></i> View Project
+                                <i class="bi bi-github"></i> Code
                             </a>
                         </div>
                     </div>
@@ -270,20 +291,25 @@
 
             <!-- Project 5 -->
             <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm shadow p-2 mb-5 bg-body-tertiary rounded">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title"><i class="bi bi-bar-chart"></i>College-Website</h5>
+                <div class="card h-100 project-card">
+                    <div class="card-body d-flex flex-column border border-dark">
+                        <h5 class="card-title text-danger fw-bold">
+                            <i class="bi bi-building"></i> College Website
+                        </h5>
                         <p class="card-text">
-                            A responsive multi-page college website built using HTML and CSS to ensure a clean and
-                            structured design. It features sections like home, about, departments, and contact, making
-                            information easily accessible.
+                            A structured and responsive College Website built using HTML5 and CSS3. The project focuses
+                            on creating a professional, informative, and user-friendly website that represents an
+                            educational institution.
+                        </p>
+                        <p class="card-text">
+                            Keywords: <br>
+                            1. University website design <br>2. School website template <br>3. Responsive college homepage <br>4. Eucational institution website.
                         </p>
                         <div class="mt-auto">
-                            <!-- <a href="#" class="btn btn-primary btn-sm">View Project</a> -->
-                            <!-- GitHub Repo Link -->
+                            <a href="#" class="btn btn-danger btn-sm">View Project</a>
                             <a href="https://vathsa27.github.io/college-webiste/" target="_blank"
                                 class="btn btn-outline-dark btn-sm">
-                                <i class="bi bi-github"></i> View Project
+                                <i class="bi bi-github"></i> Code
                             </a>
                         </div>
                     </div>
@@ -364,13 +390,13 @@
 
     <!-- Contact -->
     <div class="container my-5" id="contact">
-        <h2 class="text-center mb-4">Let's Talk</h2>
+        <h2 class="text-center mb-4">Let's Connect</h2>
         <div class="row justify-content-center g-4">
 
             <!-- Phone -->
             <div class="col-md-6 col-lg-3">
                 <div class="card shadow p-3 mb-5 bg-body-tertiary rounded text-center h-100">
-                    <div class="card-body">
+                    <div class="card-body border border-success">
                         <i class="bi bi-telephone fs-2 mb-3 text-primary"></i>
                         <h5 class="card-title">Phone</h5>
                         <p class="card-text mb-0">+91 73869 36848</p>
@@ -381,11 +407,11 @@
             <!-- Email -->
             <div class="col-md-6 col-lg-3">
                 <div class="card shadow p-3 mb-5 bg-body-tertiary rounded text-center h-100">
-                    <div class="card-body">
+                    <div class="card-body border border-danger">
                         <i class="bi bi-envelope fs-2 mb-3 text-success"></i>
                         <h5 class="card-title">Email</h5>
                         <p class="card-text">
-                            <a href="mailto:youremail@example.com">srivathsala27@gmail.com</a>
+                            <a href="mailto:youremail@example.com" class="text-dark">srivathsala27@gmail.com</a>
                         </p>
                     </div>
                 </div>
@@ -394,11 +420,12 @@
             <!-- GitHub -->
             <div class="col-md-6 col-lg-3">
                 <div class="card shadow p-3 mb-5 bg-body-tertiary rounded text-center h-100">
-                    <div class="card-body">
+                    <div class="card-body border border-warning">
                         <i class="bi bi-github fs-2 mb-3 text-dark"></i>
                         <h5 class="card-title">GitHub</h5>
                         <p class="card-text">
-                            <a href="https://github.com/vathsa27" target="_blank">github.com/Sri-Vathsa</a>
+                            <a href="https://github.com/vathsa27" target="_blank"
+                                class="text-dark">github.com/Sri-Vathsa</a>
                         </p>
                     </div>
                 </div>
@@ -407,12 +434,12 @@
             <!-- LinkedIn -->
             <div class="col-md-6 col-lg-3">
                 <div class="card shadow p-3 mb-5 bg-body-tertiary rounded text-center h-100">
-                    <div class="card-body">
+                    <div class="card-body border border-black">
                         <i class="bi bi-linkedin fs-2 mb-3 text-primary"></i>
                         <h5 class="card-title">LinkedIn</h5>
                         <p class="card-text">
-                            <a href="https://www.linkedin.com/in/sri-vathsala/"
-                                target="_blank">linkedin.com/in/Sri Vathsala</a>
+                            <a href="https://www.linkedin.com/in/sri-vathsala/" target="_blank"
+                                class="text-dark">linkedin.com/in/Sri Vathsala</a>
                         </p>
                     </div>
                 </div>
@@ -420,12 +447,12 @@
 
         </div>
         <div class="container my-5" id="contact">
-            <h2 class="text-center mb-4">Let's Talk</h2>
+            <h2 class="text-center mb-4"></h2>
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-6">
                     <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-                        <div class="card-body p-4">
-                            <h5 class="card-title text-center mb-3">Get in Touch</h5>
+                        <div class="card-body p-4 border border-dark">
+                            <h5 class="card-title text-center mb-3 fs-2">Drop a Message</h5>
                             <form>
                                 <!-- Name -->
                                 <div class="mb-3">
@@ -461,25 +488,24 @@
 
 
     <!-- Footer -->
-    <footer class="bg-dark text-light py-2 mt-5">
+    <footer class="bg-dark text-light py-3 mt-5">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="d-flex justify-content-center align-items-center gap-5 flex-wrap">
 
-                <!-- Left Side -->
-                <div class="col-md-6 text-center text-md-center mb-3 mb-md-0">
-                    <h5 class="fw-bold">SriV</h5>
-                    <p class="mb-0">© 2025 All Rights Reserved</p>
-                </div>
+                <!-- SriV -->
+                <h5 class="fw-bold mb-0">SriV</h5>
 
-                <!-- Right Side -->
-                <div class="col-md-6 text-center text-md-center">
-                    <a href="https://www.linkedin.com/in/sri-vathsala/" target="_blank" class="text-light me-3">
-                        <i class="bi bi-linkedin fs-4"></i>
-                    </a>
-                    <a href="https://github.com/vathsa27" target="_blank" class="text-light">
-                        <i class="bi bi-github fs-4"></i>
-                    </a>
-                </div>
+                <!-- Copyright -->
+                <p class="mb-0">© 2025 All Rights Reserved</p>
+
+                <!-- Icons -->
+                <a href="https://www.linkedin.com/in/sri-vathsala/" target="_blank" class="text-light">
+                    <i class="bi bi-linkedin fs-4"></i>
+                </a>
+                <a href="https://github.com/vathsa27" target="_blank" class="text-light">
+                    <i class="bi bi-github fs-4"></i>
+                </a>
+
             </div>
         </div>
     </footer>
